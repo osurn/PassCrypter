@@ -12,8 +12,6 @@ from telebot import types
 import time
 from pyrogram import Client, filters
 from telethon.sync import TelegramClient
-# .gitignore 
-config.py
 
 bot = telebot.TeleBot(token)
 
